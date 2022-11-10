@@ -20,6 +20,6 @@ def addTask(request):
                 "form": form
             })
     return render(request,"./task/addtask.html",{
-        "form":Taskfor()
+        "form":Taskform()
     })
 
